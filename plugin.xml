@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.minimajack.urovo"
+    version="1.0.0">
+
+    <name>Urovo</name>
+    <description>Urovo Plugin</description>
+    <license>MIT</license>
+    <keywords>cordova,urovo</keywords>
+
+    <js-module src="www/urovo.js" name="Urovo">
+        <clobbers target="Urovo" />
+    </js-module>
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Urovo">
+                <param name="android-package" value="com.minimajack.urovo.Urovo"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/Urovo.java" target-dir="src/com/minimajack/urovo" />
+
+    </platform>
+
+</plugin>

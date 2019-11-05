@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-urovo",
+  "version": "1.0.0",
+  "description": "A Codova plugin that simply allows you to immediately controll Urovo terminal.",
+  "cordova": {
+    "id": "cordova-plugin-urovo",
+    "platforms": [
+      "android"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinimaJack/cordova-plugin-urovo.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova",
+    "urovo"
+  ],
+  "author": "Vanzhula Evgeniy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MinimaJack/cordova-plugin-urovo/issues"
+  },
+  "homepage": "https://github.com/MinimaJack/cordova-plugin-urovo#readme"
+}
