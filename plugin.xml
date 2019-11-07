@@ -14,13 +14,13 @@
     </js-module>
 
     <platform name="android">
-        <config-file target="res/xml/config.xml" parent="/*">
+       <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Urovo">
                 <param name="android-package" value="com.minimajack.urovo.Urovo"/>
             </feature>
         </config-file>
         <source-file src="src/android/Urovo.java" target-dir="src/com/minimajack/urovo" />
-
+        <source-file src="src/android/libs/platform_sdk_v1.0.2.jar" target-dir="libs" />
     </platform>
 
 </plugin>
